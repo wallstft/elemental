@@ -85,5 +85,6 @@
 	<module>maven-archetype-springdata</module>
 	<module>maven-archetype-activiti</module>
 	<module>workflow_core</module>
+    <module>elemental_container</module>
   </modules>
 </project>
