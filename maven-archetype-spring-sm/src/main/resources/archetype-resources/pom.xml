@@ -13,6 +13,23 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>12</maven.compiler.source>
 		<maven.compiler.target>12</maven.compiler.target>
+		
+		
+		<!-- This version variables can/should be centralized into the parent pom. -->
+		<activiti.version>6.0.0</activiti.version>
+
+	    <org-junit-jupiter-junit-jupiter-engine>5.5.2</org-junit-jupiter-junit-jupiter-engine>
+		<org-springframework-boot-spring-boot-starter-web>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-web>
+		<org-springframework-boot-spring-boot-starter-security>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-security>
+		<com.wallstft.workflow.core>1.0-SNAPSHOT</com.wallstft.workflow.core>
+		<org-springframework-security-spring-security-core>5.1.6.RELEASE</org-springframework-security-spring-security-core>
+		<org-activiti-activiti-engine>7.1.0.M5</org-activiti-activiti-engine>
+		<com-h2database-h2>1.4.200</com-h2database-h2>
+		<org-apache-commons-commons-lang3>3.9</org-apache-commons-commons-lang3>
+		<com-fasterxml-jackson-core>2.10.1</com-fasterxml-jackson-core>
+		<org.everit.json.schema>1.5.1</org.everit.json.schema>
+		<org.apache.commons.io>2.4</org.apache.commons.io>
+		
 	</properties>
 
 	<dependencies>
