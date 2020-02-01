@@ -1,0 +1,47 @@
+package com.wallstft.workflow.dal.matching;
+
+import java.util.UUID;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.data.domain.Persistable;
+
+@Entity
+@Table
+public class Matching implements Persistable<String>
+{ 
+	
+	@Id
+	String vendor_unique_id ;
+
+	int match_id;
+
+	
+	@Override
+	public boolean isNew() {
+		return true;
+	}
+	
+	@Override
+	public String getId() {
+		return vendor_unique_id;
+	}
+	
+	public String getVendor_unique_id() {
+		return vendor_unique_id;
+	}
+	public void setVendor_unique_id(String vendor_unique_id) {
+		this.vendor_unique_id = vendor_unique_id;
+	}
+
+	public int getMatch_id() {
+		return match_id;
+	}
+
+	public void setMatch_id(int match_id) {
+		this.match_id = match_id;
+	}
+
+}
