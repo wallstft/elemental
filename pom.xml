@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.wallstft.elemental</groupId>
+  <artifactId>elemental</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+
+  <name>elemental</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>12</maven.compiler.source>
+    <maven.compiler.target>12</maven.compiler.target>
+    
+    <activiti.version>6.0.0</activiti.version>
+
+    <org-junit-jupiter-junit-jupiter-engine>5.5.2</org-junit-jupiter-junit-jupiter-engine>
+	<org-springframework-boot-spring-boot-starter-web>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-web>
+	<org-springframework-boot-spring-boot-starter-security>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-security>
+	<com.wallstft.workflow.core>1.0-SNAPSHOT</com.wallstft.workflow.core>
+	<org-springframework-security-spring-security-core>5.1.6.RELEASE</org-springframework-security-spring-security-core>
+	<org-activiti-activiti-engine>7.1.0.M5</org-activiti-activiti-engine>
+	<com-h2database-h2>1.4.200</com-h2database-h2>
+	<org-apache-commons-commons-lang3>3.9</org-apache-commons-commons-lang3>
+	<com-fasterxml-jackson-core>2.10.1</com-fasterxml-jackson-core>
+	<org.everit.json.schema>1.5.1</org.everit.json.schema>
+	<org.apache.commons.io>2.4</org.apache.commons.io>
+
+	
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.7.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.20.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  <modules>
+    <module>logging</module>
+    <module>maven-archetype-java12module</module>
+    <module>maven-archetype-spring-sm</module>
+    <module>maven-archetype-springboot</module>
+	<module>maven-archetype-springdata</module>
+	<module>maven-archetype-activiti</module>
+	<module>workflow_core</module>
+  </modules>
+</project>
