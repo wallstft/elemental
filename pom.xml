@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.wallstft.elemental</groupId>
+  <groupId>com.wallstft</groupId>
   <artifactId>elemental</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -85,5 +85,8 @@
 	<module>maven-archetype-springdata</module>
 	<module>maven-archetype-activiti</module>
 	<module>workflow_core</module>
+    <module>elemental_container</module>
+    <module>quant</module>
+    <module>dockerfile</module>
   </modules>
 </project>
