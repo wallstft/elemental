@@ -1,0 +1,12 @@
+
+#BUILD commands
+docker build -f kafka.Dockerfile -t kafka .
+
+
+#RUN command
+docker run --publish 9092:9092 --publish 2818:2181 --publish 2888:2888 --publish 3888:3888 --publish 8080:8080 --name kafka -it kafka
+
+
+#find the docker IP address
+docker inspect 0aa242155f1d | grep '"IPAddress"' | head -n 1
+

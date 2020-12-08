@@ -14,8 +14,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>12</maven.compiler.source>
-    <maven.compiler.target>12</maven.compiler.target>
+    <java.version>12</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
     
     <activiti.version>6.0.0</activiti.version>
 
@@ -30,6 +31,8 @@
 	<com-fasterxml-jackson-core>2.10.1</com-fasterxml-jackson-core>
 	<org.everit.json.schema>1.5.1</org.everit.json.schema>
 	<org.apache.commons.io>2.4</org.apache.commons.io>
+
+    <log4j.version>2.11.2</log4j.version>
 
 	
   </properties>
@@ -88,5 +91,14 @@
     <module>elemental_container</module>
     <module>quant</module>
     <module>dockerfile</module>
+    <module>angular</module>
+    <module>web_server</module>
+    <module>webapps</module>
+    <module>sftp</module>
+    <module>state_machine</module>
+    <module>test_cases</module>
+    <module>util</module>
+    <module>threads</module>
+    <module>macro</module>
   </modules>
 </project>

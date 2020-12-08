@@ -1,0 +1,24 @@
+
+
+
+
+#NETWORK
+#https://docs.docker.com/network/
+#https://docs.docker.com/network/network-tutorial-standalone/#use-user-defined-bridge-networks
+docker network create --driver bridge fabric-net
+
+
+#BUILD commands
+docker build -f baseimage.Dockerfile -t baseimage .
+
+#Network listing
+docker network ls
+
+
+#RUN command
+docker run --network fabric-net  --name baseimage -it baseimage
+
+
+#find the docker IP address
+docker inspect 0aa242155f1d | grep '"IPAddress"' | head -n 1
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/angular" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dockerfile" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elemental_container" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/macro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-archetype-activiti" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-archetype-java12module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-archetype-spring-sm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-archetype-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-archetype-springdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sftp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/state_machine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_cases" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/threads" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapps" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workflow_core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../experiments/java-logging/log4j2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../experiments/mina/apache-sshd-2.5.1/sshd-sftp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../experiments/uml-spring-state-machine" charset="UTF-8" />
+  </component>
+</project>

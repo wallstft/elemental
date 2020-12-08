@@ -1,0 +1,21 @@
+<input type="text" [(ngModel)]="name">
+
+<p>Resize the browser window. When the width of this document is 600 pixels or less, the background-color is "lightblue", otherwise it is "lightgreen".</p>
+
+<hr>
+<app-server></app-server>
+<app-servers></app-servers>
+
+<app-tabs></app-tabs>
+<app-menubar></app-menubar>
+
+<h3>{{Message}}</h3>
+
+<button class="btn btn-primary" (click)="onClick()">Press Me</button>
+<br>
+
+<label>Server Name</label>
+<input type="text" 
+class="form-control" 
+[(ngModel)]="Message"
+>
