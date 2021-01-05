@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/R_scripts/R_scripts.iml" filepath="$PROJECT_DIR$/R_scripts/R_scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/R_util/R_util.iml" filepath="$PROJECT_DIR$/R_util/R_util.iml" />
       <module fileurl="file://$PROJECT_DIR$/angular/angular.iml" filepath="$PROJECT_DIR$/angular/angular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-angular/demo.iml" filepath="$PROJECT_DIR$/spring-boot-angular/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dockerfile/dockerfile.iml" filepath="$PROJECT_DIR$/dockerfile/dockerfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/election2020/election2020.iml" filepath="$PROJECT_DIR$/election2020/election2020.iml" />
       <module fileurl="file://$PROJECT_DIR$/elemental.iml" filepath="$PROJECT_DIR$/elemental.iml" />
       <module fileurl="file://$PROJECT_DIR$/elemental_container/elemental_container.iml" filepath="$PROJECT_DIR$/elemental_container/elemental_container.iml" />
       <module fileurl="file://$PROJECT_DIR$/../experiments/java-logging/log4j2/log4j2.iml" filepath="$PROJECT_DIR$/../experiments/java-logging/log4j2/log4j2.iml" />
@@ -12,11 +16,14 @@
       <module fileurl="file://$PROJECT_DIR$/maven-archetype-activiti/maven-archetype-activiti.iml" filepath="$PROJECT_DIR$/maven-archetype-activiti/maven-archetype-activiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-archetype-java12module/maven-archetype-java12module.iml" filepath="$PROJECT_DIR$/maven-archetype-java12module/maven-archetype-java12module.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-archetype-spring-sm/maven-archetype-spring-sm.iml" filepath="$PROJECT_DIR$/maven-archetype-spring-sm/maven-archetype-spring-sm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-archetype-parent-pom/maven-archetype-spring-sm (1).iml" filepath="$PROJECT_DIR$/maven-archetype-parent-pom/maven-archetype-spring-sm (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-archetype-springboot/maven-archetype-springboot.iml" filepath="$PROJECT_DIR$/maven-archetype-springboot/maven-archetype-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven-archetype-springdata/maven-archetype-springdata.iml" filepath="$PROJECT_DIR$/maven-archetype-springdata/maven-archetype-springdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_tomcat/parent.iml" filepath="$PROJECT_DIR$/test_tomcat/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/quant/quant.iml" filepath="$PROJECT_DIR$/quant/quant.iml" />
       <module fileurl="file://$PROJECT_DIR$/sftp/sftp.iml" filepath="$PROJECT_DIR$/sftp/sftp.iml" />
       <module fileurl="file://$PROJECT_DIR$/state_machine/state_machine.iml" filepath="$PROJECT_DIR$/state_machine/state_machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringboot_nginx/stringboot_nginx.iml" filepath="$PROJECT_DIR$/stringboot_nginx/stringboot_nginx.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_cases/test_cases.iml" filepath="$PROJECT_DIR$/test_cases/test_cases.iml" />
       <module fileurl="file://$PROJECT_DIR$/threads/threads.iml" filepath="$PROJECT_DIR$/threads/threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />

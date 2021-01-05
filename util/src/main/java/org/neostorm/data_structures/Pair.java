@@ -18,14 +18,18 @@ package org.neostorm.data_structures;
     
     */
 
+import java.util.Objects;
+
 public class Pair<K,V> {
-    K key = null;
-    V value = null;
+    protected K key = null;
+    protected V value = null;
 
     public Pair ( K k, V v ) {
         this.key = k;
         this.value = v;
     }
+
+
 
     public K getKey() {
         return key;
@@ -41,5 +45,19 @@ public class Pair<K,V> {
 
     public void setValue(V value) {
         this.value = value;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pair<?, ?> pair = (Pair<?, ?>) o;
+        return key.equals(pair.key) &&
+                value.equals(pair.value);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(key, value);
     }
 }

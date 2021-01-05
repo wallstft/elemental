@@ -2,20 +2,29 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/R_scripts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/R_util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/angular" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dockerfile" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/election2020" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elemental_container" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logging" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/macro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-archetype-activiti" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-archetype-java12module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-archetype-parent-pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-archetype-spring-sm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-archetype-springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-archetype-springdata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/quant" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sftp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-angular" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-angular/angular" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-angular/springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/state_machine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_cases" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_tomcat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_tomcat/springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/threads" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web_server" charset="UTF-8" />

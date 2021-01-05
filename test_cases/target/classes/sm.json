@@ -1,9 +1,0 @@
-{
-  "initialState" : "SI",
-  "endState" : "SE",
-  "states" : [ "S1", "S2" ],
-  "transitions" : [
-    ["E1", "SI", "S1"],
-    ["E2", "S1", "SE"]
-  ]
-}

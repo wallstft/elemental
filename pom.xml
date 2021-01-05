@@ -31,6 +31,9 @@
 	<com-fasterxml-jackson-core>2.10.1</com-fasterxml-jackson-core>
 	<org.everit.json.schema>1.5.1</org.everit.json.schema>
 	<org.apache.commons.io>2.4</org.apache.commons.io>
+    <h2.version>1.4.200</h2.version>
+
+
 
     <log4j.version>2.11.2</log4j.version>
 
@@ -87,6 +90,7 @@
     <module>maven-archetype-springboot</module>
 	<module>maven-archetype-springdata</module>
 	<module>maven-archetype-activiti</module>
+    <module>maven-archetype-parent-pom</module>
 	<module>workflow_core</module>
     <module>elemental_container</module>
     <module>quant</module>
@@ -100,5 +104,8 @@
     <module>util</module>
     <module>threads</module>
     <module>macro</module>
+    <module>R_scripts</module>
+    <module>election2020</module>
+    <module>R_util</module>
   </modules>
 </project>
