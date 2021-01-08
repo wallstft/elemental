@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a47de6d-84cc-49ff-8f9e-d97707c26f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/stringboot_nginx_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/stringboot_nginx_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jcl_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_test_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_web_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/angular (1) (org.neostorm).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/server/server.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/server/server.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/server/server.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/app/server/server.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/proxy.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/app/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/angular_nginx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/nginx/mime.types" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular_nginx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-archetype-angular-springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/angular (1) (org.neostorm).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/server/server.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/server/server.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/server/server.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/app/server/server.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/proxy.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/app/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/angular_nginx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/nginx/mime.types" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/angular_nginx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/main/java/org/neostorm/BootMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/main/java/org/neostorm/sample/RestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/main/java/org/neostorm/sample/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/springboot/src/test/java/org/neostorm/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-angular/spring-boot-angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/neostorm/sample/RestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/neostorm/sample/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_nginx/angular/angular (1) (org.neostorm).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/server/server.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/server/server.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/server/server.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/server/server.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_mod/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_mod/src/main/java/org/neostorm/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_mod/src/test/java/org/neostorm/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_mod/test_boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_mod/test_boot/test_boot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_mod/test_mod.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-angular/springboot/springboot (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-angular/springboot/springboot (1).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_nginx/angular/app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_nginx/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_nginx/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_nginx/stringboot_nginx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_nginx/stringboot_nginx.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1micTGTkRyGLRF4EmGNxcZBDvr2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a47de6d-84cc-49ff-8f9e-d97707c26f0f" name="Default Changelist" comment="" />
+      <created>1609979857744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609979857744</updated>
+      <workItem from="1609979867823" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

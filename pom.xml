@@ -95,7 +95,6 @@
     <module>elemental_container</module>
     <module>quant</module>
     <module>dockerfile</module>
-    <module>angular</module>
     <module>web_server</module>
     <module>webapps</module>
     <module>sftp</module>
@@ -107,5 +106,6 @@
     <module>R_scripts</module>
     <module>election2020</module>
     <module>R_util</module>
+    <module>maven-archetype-angular-springboot</module>
   </modules>
 </project>
