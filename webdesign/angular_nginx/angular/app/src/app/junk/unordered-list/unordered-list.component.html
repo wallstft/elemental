@@ -1,0 +1,11 @@
+
+
+
+<p *ngIf="msg_list.length<1">No posts available</p>
+<ul class="list-group" *ngIf="msg_list.length>=1">
+  <li class="list-group-item" *ngFor="let m of msg_list">
+    <h1>{{m.msg}}</h1>
+  </li>
+</ul>
+
+

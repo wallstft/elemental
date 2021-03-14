@@ -25,15 +25,15 @@ https://maven.apache.org/shared/file-management/fileset.html
 
 
 <archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-  name="${artifactId}">
+                      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+                      name="${artifactId}">
 
-  <fileSets>
+<fileSets>
     <fileSet filtered="true" packaged="false">
-      <directory>angular_nginx</directory>
+        <directory>angular_nginx</directory>
     </fileSet>
     <fileSet filtered="true" packaged="false">
-      <directory>springboot</directory>
+        <directory>springboot</directory>
     </fileSet>
-  </fileSets>
+</fileSets>
 </archetype-descriptor>

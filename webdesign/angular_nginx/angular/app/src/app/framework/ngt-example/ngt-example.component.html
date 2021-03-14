@@ -1,0 +1,22 @@
+<!-- Define the recursive template. -->
+
+
+<!--
+	Initiate the recursive template rendering. Because our recursive template is going to
+	be using the ngFor directive to render recursively, the "context" in the recursive
+	instances is going to be the ngForContext. As such, we have to "mock" the initial
+	context to look like the context that the ngFor directive will expose internally.
+
+	NOTE: If we used ngContainer or ngTemplate to invoke the recursion internally, we'd
+	have more control over which values were made available at each level.
+-->
+<ul>
+<ng-template
+  [ngTemplateOutlet]="nodeTemplateRef"
+  [ngTemplateOutletContext]="{ $implicit: data.root }">
+</ng-template>
+</ul>
+
+<p class="note">
+  <em>Ng-For Template Rendering</em>
+</p>

@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/springboot_nginx/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-angular/pom.xml" />
+        <option value="$PROJECT_DIR$/webdesign/angular_nginx/pom.xml" />
+        <option value="$PROJECT_DIR$/webdesign/pom.xml" />
+        <option value="$PROJECT_DIR$/webdesign/springboot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

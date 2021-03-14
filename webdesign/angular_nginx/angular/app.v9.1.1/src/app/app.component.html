@@ -1,0 +1,103 @@
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">{{title}}</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li >
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#explore-head-section" class="nav-link">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a href="#create-head-section" class="nav-link">Create</a>
+        </li>
+        <li class="nav-item">
+          <a href="#share-head-section" class="nav-link">Share</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div>
+
+      <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+        <li [ngbNavItem]="1">
+          <a ngbNavLink>One</a>
+          <ng-template ngbNavContent>
+            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+              master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+              keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
+              salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="2">
+          <a ngbNavLink>Two</a>
+          <ng-template ngbNavContent>
+            <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko
+              farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts
+              ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar
+              helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson
+              8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
+              stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="3">
+          <a ngbNavLink>Three</a>
+          <ng-template ngbNavContent>
+            <p>Sed commodo, leo at suscipit dictum, quam est porttitor sapien, eget sodales nibh elit id diam. Nulla facilisi.
+              Donec egestas ligula vitae odio interdum aliquet. Duis lectus turpis, luctus eget tincidunt eu, congue et odio.
+              Duis pharetra et nisl at faucibus. Quisque luctus pulvinar arcu, et molestie lectus ultrices et. Sed diam urna,
+              egestas ut ipsum vel, volutpat volutpat neque. Praesent fringilla tortor arcu. Vivamus faucibus nisl enim, nec
+              tristique ipsum euismod facilisis. Morbi ut bibendum est, eu tincidunt odio. Orci varius natoque penatibus et
+              magnis dis parturient montes, nascetur ridiculus mus. Mauris aliquet odio ac lorem aliquet ultricies in eget
+              neque. Phasellus nec tortor vel tellus pulvinar feugiat.</p>
+          </ng-template>
+        </li>
+      </ul>
+
+      <div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+      <pre>Active: {{ active }}</pre>
+
+
+<!--      <nav class="nav nav-tabs py-5" role="tablist">-->
+<!--        <li role="presentation" class="nav-item"-->
+<!--            routerLinkActive="active"-->
+<!--            [routerLinkActiveOptions]="{exact:true}">-->
+<!--          <a class="nav-link active" routerLink="/">Home</a></li>-->
+<!--        <li role="presentation" class="nav-item"-->
+<!--            routerLinkActive="active"-->
+<!--            [routerLinkActiveOptions]="{exact:true}">-->
+<!--          <a class="nav-link" routerLink="/servers">Servers</a></li>-->
+<!--        <li role="presentation" class="nav-item"-->
+<!--            routerLinkActive="active"-->
+<!--            [routerLinkActiveOptions]="{exact:true}">-->
+<!--          <a class="nav-link"  routerLink="/users">Users</a></li>-->
+<!--      </nav>-->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <h3>hello</h3>
+      <router-outlet></router-outlet>
+      <h3>done</h3>
+    </div>
+  </div>
+</div>
+
+<button (click)="onCreateGet()">PRESS ME!</button>
+
+
+<app-server></app-server>
+<app-unordered-list></app-unordered-list>

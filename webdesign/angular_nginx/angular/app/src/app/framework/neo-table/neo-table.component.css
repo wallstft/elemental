@@ -1,0 +1,29 @@
+
+
+.table {
+  width: auto;
+  max-width: available;
+}
+
+.table td.fit,
+.table th.fit {
+  white-space: nowrap;
+  width: 1%;
+}
+
+#ntable th {
+  padding: 1px;
+  padding-bottom: 1px;
+  text-align: right;
+}
+
+#ntable td {
+  padding: 1px;
+  padding-bottom: 1px;
+  text-align: right;
+}
+
+#ntable img {
+  padding: 0px;
+  padding-bottom: 0px;
+}

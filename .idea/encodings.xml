@@ -4,11 +4,10 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/R_scripts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/R_util" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/angular" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/angular_nginx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dockerfile" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/election2020" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elemental_container" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elemental_ui" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logging" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/macro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maven-archetype-activiti" charset="UTF-8" />
@@ -23,23 +22,19 @@
     <file url="file://$PROJECT_DIR$/spring-boot-angular" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-angular/angular" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-angular/springboot" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_nginx" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_nginx/angular" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/state_machine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_cases" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_mod" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_mod/test_boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_tomcat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_tomcat/springboot" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test_webapp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test_webapp_archetype" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test_webapp_maven" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test_webapp_mvn" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/threads" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webapps" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webdesign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webdesign/angular_nginx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webdesign/springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/workflow_core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../experiments/java-logging/log4j2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../experiments/mina/apache-sshd-2.5.1/sshd-sftp" charset="UTF-8" />

@@ -41,11 +41,18 @@
   </properties>
 
   <dependencies>
+<!--    <dependency>-->
+<!--      <groupId>junit</groupId>-->
+<!--      <artifactId>junit</artifactId>-->
+<!--      <version>4.11</version>-->
+<!--    </dependency>-->
+
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${org-junit-jupiter-junit-jupiter-engine}</version>
     </dependency>
+
   </dependencies>
 
   <build>
@@ -106,6 +113,7 @@
     <module>R_scripts</module>
     <module>election2020</module>
     <module>R_util</module>
-    <module>maven-archetype-angular-springboot</module>
+    <module>webdesign</module>
+    <module>elemental_ui</module>
   </modules>
 </project>

@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+  <div class="navbar-brand" >
+    <img src="../../../assets/storm-svgrepo-com.svg" (click)="navBarData.toggle_sidebar()" width="30" height="30" class="d-inline-block align-top" alt=""/>
+    <a href="index.html">
+    {{brand_name}}
+    </a>
+  </div>
+
+  <div class="container">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-brand">
+        {{navBarData.application_name}}
+      </div>
+      <ul class="navbar-nav ml-auto">
+        <li routerLink="{{item.item_url}}" class="nav-link" *ngFor="let item of menu_items">
+          {{item.item_name}}
+        </li>
+<!--        <li >-->
+<!--          <a href="#home" class="nav-link">Home</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a href="#explore-head-section" class="nav-link">Explore</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a href="#create-head-section" class="nav-link">Create</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a href="#share-head-section" class="nav-link">Share</a>-->
+<!--        </li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
