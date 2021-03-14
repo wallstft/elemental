@@ -22,7 +22,7 @@
 		<org-springframework-boot-spring-boot-starter-web>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-web>
 		<org-springframework-boot-spring-boot-starter-security>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-security>
 		<com.wallstft.workflow.core>1.0-SNAPSHOT</com.wallstft.workflow.core>
-		<org-springframework-security-spring-security-core>5.1.6.RELEASE</org-springframework-security-spring-security-core>
+		<org-springframework-security-spring-security-core>5.1.11.RELEASE</org-springframework-security-spring-security-core>
 		<org-activiti-activiti-engine>7.1.0.M5</org-activiti-activiti-engine>
 		<com-h2database-h2>1.4.200</com-h2database-h2>
 		<org-apache-commons-commons-lang3>3.9</org-apache-commons-commons-lang3>
