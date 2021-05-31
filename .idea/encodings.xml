@@ -4,40 +4,56 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/R_scripts" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/R_util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/R_util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dockerfile" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/election2020" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/election2020/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/election2020/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elemental_container" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elemental_container/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elemental_container/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elemental_ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elemental_ui/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logging/src/main/java/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/macro" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/maven-archetype-activiti" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/maven-archetype-angular-springboot" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/maven-archetype-java12module" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/maven-archetype-parent-pom" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/maven-archetype-spring-sm" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/maven-archetype-springboot" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/maven-archetype-springdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/macro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/quant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quant/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sftp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sftp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-angular" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-angular/angular" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-angular/springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-angular/springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-angular/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-angular/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/state_machine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/state_machine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/state_machine/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_cases" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_cases/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_cases/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_mod" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_mod/test_boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_tomcat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test_tomcat/springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/threads" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/threads/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webapps" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapps/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webdesign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webdesign/angular_nginx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webdesign/springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webdesign/springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webdesign/springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/workflow_core" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../experiments/java-logging/log4j2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../experiments/mina/apache-sshd-2.5.1/sshd-sftp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../experiments/uml-spring-state-machine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workflow_core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/workflow_core/src/main/resources" charset="UTF-8" />
   </component>
 </project>

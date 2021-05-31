@@ -9,48 +9,49 @@
       <directory url="file://$PROJECT_DIR$/maven-archetype-spring-sm/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/maven-archetype-parent-pom/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/maven-archetype-angular-springboot/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/mytype/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="angular (1) (org.neostorm)" />
-        <module name="stringboot_nginx" />
-        <module name="demo" />
-        <module name="sftp" />
-        <module name="angular" />
-        <module name="webapps" />
-        <module name="webdesign" />
         <module name="elemental_ui" />
-        <module name="maven-archetype-java12module" />
-        <module name="maven-archetype-spring-sm (1)" />
-        <module name="maven-archetype-spring-sm" />
-        <module name="angular_nginx" />
-        <module name="log4j2" />
         <module name="elemental_container" />
-        <module name="test_cases" />
-        <module name="logging" />
-        <module name="maven-archetype-springdata" />
-        <module name="test_webapp_maven" />
-        <module name="test_webapp_archetype" />
-        <module name="R_scripts" />
-        <module name="maven-archetype-springboot" />
-        <module name="web" />
-        <module name="macro" />
         <module name="test_webapp" />
-        <module name="R_util" />
-        <module name="dockerfile" />
-        <module name="util" />
-        <module name="election2020" />
-        <module name="quant" />
-        <module name="state_machine" />
-        <module name="test_webapp_mvn" />
-        <module name="maven-archetype-activiti" />
         <module name="springboot (1)" />
-        <module name="workflow_core" />
+        <module name="demo" />
+        <module name="angular (1) (org.neostorm)" />
         <module name="springboot" />
+        <module name="maven-archetype-springdata" />
+        <module name="R_util" />
+        <module name="maven-archetype-spring-sm (1)" />
+        <module name="state_machine" />
+        <module name="R_scripts" />
+        <module name="web" />
+        <module name="workflow_core" />
+        <module name="angular_nginx" />
+        <module name="election2020" />
+        <module name="maven-archetype-activiti" />
+        <module name="webdesign" />
+        <module name="test_webapp_archetype" />
+        <module name="macro" />
+        <module name="dockerfile" />
+        <module name="test_cases" />
         <module name="threads" />
+        <module name="maven-archetype-spring-sm" />
+        <module name="quant" />
+        <module name="test_webapp_mvn" />
+        <module name="log4j2" />
+        <module name="test_webapp_maven" />
+        <module name="angular" />
+        <module name="maven-archetype-java12module" />
+        <module name="maven-archetype-springboot" />
+        <module name="util" />
+        <module name="webapps" />
+        <module name="stringboot_nginx" />
+        <module name="logging" />
+        <module name="sftp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="9">
@@ -66,15 +67,16 @@
       <module name="elemental_container" target="12" />
       <module name="elemental_ui" target="1.7" />
       <module name="log4j2" target="1.8" />
-      <module name="logging" target="12" />
+      <module name="logging" target="1.8" />
       <module name="macro" target="1.7" />
-      <module name="maven-archetype-activiti" target="12" />
+      <module name="maven-archetype-activiti" target="1.5" />
       <module name="maven-archetype-angular-springboot" target="1.7" />
       <module name="maven-archetype-java12module" target="12" />
       <module name="maven-archetype-spring-sm" target="12" />
       <module name="maven-archetype-spring-sm (1)" target="12" />
       <module name="maven-archetype-springboot" target="12" />
       <module name="maven-archetype-springdata" target="12" />
+      <module name="mytype" target="1.7" />
       <module name="parent" target="12" />
       <module name="quant" target="12" />
       <module name="R_scripts" target="1.7" />
@@ -107,6 +109,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="spring-boot-angular" options="" />
+      <module name="springboot" options="-parameters" />
       <module name="sshd-sftp" options="-g" />
       <module name="uml-spring-state-machine" options="-parameters" />
       <module name="web" options="-parameters" />
