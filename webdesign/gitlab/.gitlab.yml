@@ -1,0 +1,24 @@
+
+stages:
+  - build
+  - deploy
+
+build angular:
+  image: node
+  stage: build
+  script:
+    - git clone https://github.com/wallstft/elemental.git
+    - cd elemental/webdesign/angular_nginx/angular/app
+    - npm install
+    - ng build
+    - cd ./elemental/webdesign/angular_nginx/angular
+    - tar -cvf dist.tar dist
+  artifacts:
+    paths:
+      - ./elemental/webdesign/angular_nginx/angular/dist.tar
+
+deploy angular:
+  image: node
+  stage: deploy
+  script:
+    - 

@@ -12,29 +12,20 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../experiments/java-logging/log4j2/pom.xml" />
         <option value="$PROJECT_DIR$/maven-archetype-parent-pom/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_nginx/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-angular/pom.xml" />
-        <option value="$PROJECT_DIR$/webdesign/angular_nginx/pom.xml" />
-        <option value="$PROJECT_DIR$/webdesign/pom.xml" />
-        <option value="$PROJECT_DIR$/webdesign/springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/R_util/pom.xml" />
+        <option value="$PROJECT_DIR$/mathlib/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/mytype/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-angular/angular/pom.xml" />
       </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="16" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
-  </component>
-  <component name="ScalaSbtSettings">
-    <option name="customVMPath" />
   </component>
 </project>

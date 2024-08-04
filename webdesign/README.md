@@ -7,6 +7,8 @@ will be used to respond to RESTful requests that are configured in the nginx con
 
 Build the Angular application
 
+```cd <project-directory>/angular_nginx/angular/app```
+
 `npm install`
 
 To create the "dist" directory needed for the nginx server you must build the application using this command.
@@ -30,6 +32,15 @@ https://www.javatpoint.com/installing-nginx-on-mac
 `brew install nginx`
 
 ### Starting nginx
+
+check to see if nginx is already running
+
+```ps -ef | grep nginx```
+
+if there is an nginx server already running you can stop it using this command
+
+```nginx -s stop```
+
 Before starting nginx edit the nginx.conf and verify that the port and angular directory is correct for your environment.
 Look fo the server section in nconf.conf and verify the port and hostname are correct for the environment.
 
@@ -65,6 +76,10 @@ nginx command.
 
 `nginx -p /Users/kevinboyle/dev/elemental/webdesign/angular_nginx/nginx -c nginx.conf`
 
+Open the URL using the hostname and port configured above.   In my environment I used 
+localhost and port 7070.
+
+```http://localhost:7070/```
 
 ## springboot
 The springboot project is configured to produce an executable jar-file using maven.
