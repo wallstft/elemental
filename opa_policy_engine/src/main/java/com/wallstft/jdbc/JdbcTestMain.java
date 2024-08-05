@@ -18,6 +18,9 @@ public class JdbcTestMain {
             properties.put("user", "your_user");
             properties.put("password", "your_password");
 
+            opa_driver driver = new opa_driver();
+
+            driver.connect(url, properties);
             opa_connection connection = new opa_connection(url, properties);
             Statement stmt = connection.createStatement();
 
