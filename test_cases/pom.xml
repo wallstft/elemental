@@ -40,6 +40,13 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>com.wallstft.workflow</groupId>
+      <artifactId>opa_policy_engine</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>

@@ -1,5 +1,7 @@
 package com.wallstft.jdbc;
 
+import com.wallstft.opa.OPAClient;
+
 import java.io.InputStream;
 import java.io.Reader;
 import java.math.BigDecimal;
@@ -7,10 +9,19 @@ import java.net.URL;
 import java.sql.*;
 import java.util.Calendar;
 import java.util.Map;
+import java.util.Properties;
 
 public class opa_result_set implements ResultSet {
 
     private ResultSet result_set = null;
+    private OPAClient opaClient ;
+    private Properties properties;
+
+    public opa_result_set ( ResultSet rs, OPAClient client, Properties prop ) {
+        this.result_set = rs;
+        this.opaClient = client;
+        this.properties = prop;
+    }
 
     @Override
     public boolean next() throws SQLException {

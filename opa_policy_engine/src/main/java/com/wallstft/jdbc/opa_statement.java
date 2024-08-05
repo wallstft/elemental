@@ -3,22 +3,25 @@ package com.wallstft.jdbc;
 import com.wallstft.opa.OPAClient;
 
 import java.sql.*;
+import java.util.Properties;
 
 public class opa_statement implements Statement {
 
     private Statement statement ;
     private OPAClient opaClient ;
+    private Properties properties;
 
-    public opa_statement(Statement statement, OPAClient opaClient)
+    public opa_statement(Statement statement, OPAClient opaClient, Properties prop )
     {
         this.statement = statement;
         this.opaClient = opaClient;
+        this.properties = prop;
     }
 
 
     @Override
-    public ResultSet executeQuery(String sql) throws SQLException {
-        return this.statement.executeQuery(sql);
+    public opa_result_set executeQuery(String sql) throws SQLException {
+        return new opa_result_set( this.statement.executeQuery(sql), opaClient, properties);
     }
 
     @Override
@@ -92,8 +95,8 @@ public class opa_statement implements Statement {
     }
 
     @Override
-    public ResultSet getResultSet() throws SQLException {
-        return this.statement.getResultSet();
+    public opa_result_set getResultSet() throws SQLException {
+        return new opa_result_set(this.statement.getResultSet(), opaClient, properties);
     }
 
     @Override
@@ -162,8 +165,8 @@ public class opa_statement implements Statement {
     }
 
     @Override
-    public ResultSet getGeneratedKeys() throws SQLException {
-        return this.statement.getGeneratedKeys();
+    public opa_result_set getGeneratedKeys() throws SQLException {
+        return new opa_result_set(this.statement.getGeneratedKeys(), opaClient, properties);
     }
 
     @Override

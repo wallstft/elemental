@@ -11,15 +11,17 @@ public class opa_connection implements Connection {
 
     private final Connection connection;
     private final OPAClient opaClient;
+    private final Properties props ;
 
-    public opa_connection(String url, Properties properties) throws SQLException {
-        this.connection = DriverManager.getConnection(url, properties);
+    public opa_connection( Connection conn, Properties properties) throws SQLException {
+        this.connection = conn;
         this.opaClient = new OPAClient();
+        this.props = properties;
     }
 
     @Override
     public Statement createStatement() throws SQLException {
-        return new opa_statement(connection.createStatement(), opaClient);
+        return new opa_statement(connection.createStatement(), opaClient, props);
     }
 
     @Override
@@ -117,7 +119,7 @@ public class opa_connection implements Connection {
 
     @Override
     public Statement createStatement(int resultSetType, int resultSetConcurrency) throws SQLException {
-        return new opa_statement( createStatement(resultSetType, resultSetConcurrency), opaClient );
+        return new opa_statement( createStatement(resultSetType, resultSetConcurrency), opaClient, props );
     }
 
     @Override
@@ -172,7 +174,7 @@ public class opa_connection implements Connection {
 
     @Override
     public Statement createStatement(int resultSetType, int resultSetConcurrency, int resultSetHoldability) throws SQLException {
-        return new opa_statement( createStatement(resultSetType, resultSetConcurrency, resultSetHoldability), opaClient );
+        return new opa_statement( createStatement(resultSetType, resultSetConcurrency, resultSetHoldability), opaClient, props );
     }
 
     @Override
