@@ -1,26 +1,56 @@
 package com.wallstft.jdbc;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.wallstft.opa.OPAClient;
+import com.wallstft.utils.OpaUtils;
 
 import java.io.InputStream;
 import java.io.Reader;
 import java.math.BigDecimal;
 import java.net.URL;
 import java.sql.*;
-import java.util.Calendar;
-import java.util.Map;
-import java.util.Properties;
+import java.sql.Date;
+import java.util.*;
 
 public class opa_result_set implements ResultSet {
 
     private ResultSet result_set = null;
     private OPAClient opaClient ;
     private Properties properties;
+    List<ObjectNode> columns = null;
+    HashMap<String, Integer> name_to_index = null;
 
     public opa_result_set ( ResultSet rs, OPAClient client, Properties prop ) {
         this.result_set = rs;
         this.opaClient = client;
         this.properties = prop;
+
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            columns = new ArrayList<>();
+            name_to_index = new HashMap<>();
+            ResultSetMetaData meta_data = rs.getMetaData();
+            if (meta_data != null) {
+                int column_count = meta_data.getColumnCount();
+                for ( int i=1; i <=column_count; i ++ ) {
+                    ObjectNode node = mapper.createObjectNode();
+                    columns.add(node);
+                    String name = null;
+                    node.put( "column_name", name = meta_data.getColumnName(i));
+                    node.put( "type", meta_data.getColumnTypeName(i));
+                    node.put( "label", meta_data.getColumnLabel(i));
+                    node.put( "table_name", meta_data.getTableName(i));
+                    node.put( "schema_name", meta_data.getSchemaName(i));
+                    node.put( "catalog", meta_data.getCatalogName(i));
+
+                    name_to_index.put ( name, i );
+                }
+            }
+        }
+        catch ( Exception ex ) {
+            ex.printStackTrace();;
+        }
     }
 
     @Override
@@ -40,7 +70,15 @@ public class opa_result_set implements ResultSet {
 
     @Override
     public String getString(int columnIndex) throws SQLException {
-        return this.result_set.getString(columnIndex);
+        String s = this.result_set.getString(columnIndex);
+        ObjectNode node = columns.get(columnIndex);
+        if ( node != null ) {
+            String column_name = OpaUtils.getString( node, "column_name");
+            if ( column_name != null && column_name.equals("last_name")) {
+                s = null;
+            }
+        }
+        return s;
     }
 
     @Override
@@ -120,7 +158,11 @@ public class opa_result_set implements ResultSet {
 
     @Override
     public String getString(String columnLabel) throws SQLException {
-        return this.result_set.getString(columnLabel);
+        String s = this.result_set.getString(columnLabel);
+        if ( columnLabel != null && columnLabel.equals("last_name")) {
+            s = null;
+        }
+        return s;
     }
 
     @Override
