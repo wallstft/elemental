@@ -2,6 +2,7 @@ package com.wallstft.jdbc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.wallstft.masking.MaskingUtil;
 import com.wallstft.opa.OPAClient;
 import com.wallstft.utils.OpaUtils;
 
@@ -44,7 +45,11 @@ public class opa_result_set implements ResultSet {
                     node.put( "schema_name", meta_data.getSchemaName(i));
                     node.put( "catalog", meta_data.getCatalogName(i));
 
-                    name_to_index.put ( name, i );
+                    if ( name != null && name.equals("last_name")) {
+                        node.put("hash", true );
+                    }
+
+                    name_to_index.put ( name, i-1 );
                 }
             }
         }
@@ -72,13 +77,7 @@ public class opa_result_set implements ResultSet {
     public String getString(int columnIndex) throws SQLException {
         String s = this.result_set.getString(columnIndex);
         ObjectNode node = columns.get(columnIndex);
-        if ( node != null ) {
-            String column_name = OpaUtils.getString( node, "column_name");
-            if ( column_name != null && column_name.equals("last_name")) {
-                s = null;
-            }
-        }
-        return s;
+        return MaskingUtil.hash( node, s);
     }
 
     @Override
@@ -159,10 +158,8 @@ public class opa_result_set implements ResultSet {
     @Override
     public String getString(String columnLabel) throws SQLException {
         String s = this.result_set.getString(columnLabel);
-        if ( columnLabel != null && columnLabel.equals("last_name")) {
-            s = null;
-        }
-        return s;
+        ObjectNode node = columns.get ( this.name_to_index.get(columnLabel));
+        return MaskingUtil.hash( node, s );
     }
 
     @Override

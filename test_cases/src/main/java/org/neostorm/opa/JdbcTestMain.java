@@ -37,6 +37,10 @@ public class JdbcTestMain {
             stmt.execute("insert into sales_data ( first_name, last_name) values ( 'kevin', 'boyle')");
             stmt.execute("insert into sales_data ( first_name, last_name) values ( 'gwen', 'boyle')");
             stmt.execute("insert into sales_data ( first_name, last_name) values ( 'naomi', 'boyle')");
+            stmt.execute("insert into sales_data ( first_name, last_name) values ( 'Heather', 'Perrin-Boyle')");
+            stmt.execute("insert into sales_data ( first_name, last_name) values ( 'Neo', 'Perrin-Boyle')");
+            stmt.execute("insert into sales_data ( first_name, last_name) values ( 'Email', 'kevintboyle@yahoo.com')");
+            stmt.execute("insert into sales_data ( first_name, last_name) values ( 'SSN', '056-54-6578')");
 
             ResultSet rs = stmt.executeQuery("SELECT * FROM sales_data");
             while (rs.next()) {

@@ -28,5 +28,16 @@ public class OpaUtils {
         return value;
     }
 
+    static public Boolean getBoolean (ObjectNode node, String name ) {
+        Boolean value = false;
+        if ( node != null ) {
+            JsonNode jv = node.get(name);
+            if ( jv != null ) {
+                value = jv.asBoolean();
+            }
+        }
+        return value;
+    }
+
 
 }
