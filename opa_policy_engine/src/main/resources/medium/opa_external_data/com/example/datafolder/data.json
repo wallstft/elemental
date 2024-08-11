@@ -1,0 +1,11 @@
+
+{
+    "users" : {
+        "name1":   {"manager": "charlie", "title": "salesperson"},
+        "name2":     {"manager": "charlie", "title": "salesperson"},
+        "name3": {"manager": "dave",    "title": "manager"},
+        "name4":    {"manager": null,      "title": "ceo"},
+        "dummy": {"manager": "dummy", "title": "dummy"}
+    }
+}
+

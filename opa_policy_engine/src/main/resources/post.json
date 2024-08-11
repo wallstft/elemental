@@ -1,0 +1,57 @@
+{
+  "rego_modules": {
+    "policy.rego": "package app.abac\n\nimport rego.v1\n\ndefault allow := false\n\nallow if user_is_owner\n\nallow if {\n\tuser_is_employee\n\taction_is_read\n}\n\nallow if {\n\tuser_is_employee\n\tuser_is_senior\n\taction_is_update\n}\n\nallow if {\n\tuser_is_customer\n\taction_is_read\n\tnot pet_is_adopted\n}\n\nuser_is_owner if data.user_attributes[input.user].title == \"owner\"\n\nuser_is_employee if data.user_attributes[input.user].title == \"employee\"\n\nuser_is_customer if data.user_attributes[input.user].title == \"customer\"\n\nuser_is_senior if data.user_attributes[input.user].tenure > 8\n\naction_is_read if input.action == \"read\"\n\naction_is_update if input.action == \"update\"\n\npet_is_adopted if data.pet_attributes[input.resource].adopted == true\n"
+  },
+  "input": {
+    "user": "bob",
+    "action": "read",
+    "resource": "dog123"
+  },
+  "data": {
+    "user_attributes": {
+      "alice": {
+        "tenure": 20,
+        "title": "owner"
+      },
+      "bob": {
+        "tenure": 15,
+        "title": "employee"
+      },
+      "eve": {
+        "tenure": 5,
+        "title": "employee"
+      },
+      "dave": {
+        "tenure": 5,
+        "title": "customer"
+      }
+    },
+    "pet_attributes": {
+      "dog123": {
+        "adopted": true,
+        "age": 2,
+        "breed": "terrier",
+        "name": "toto"
+      },
+      "dog456": {
+        "adopted": false,
+        "age": 3,
+        "breed": "german-shepherd",
+        "name": "rintintin"
+      },
+      "dog789": {
+        "adopted": false,
+        "age": 2,
+        "breed": "collie",
+        "name": "lassie"
+      },
+      "cat123": {
+        "adopted": false,
+        "age": 1,
+        "breed": "fictitious",
+        "name": "cheshire"
+      }
+    }
+  },
+  "strict": true
+}

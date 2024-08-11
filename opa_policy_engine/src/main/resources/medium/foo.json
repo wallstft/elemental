@@ -1,0 +1,92 @@
+{
+  "result": {
+    "foo": {
+      "input": {
+        "location": "apac",
+        "user": "bob"
+      }
+    },
+    "marketplace": {
+      "allow": false,
+      "myroles": [],
+      "roles": {
+        "data_analyst": [
+          {
+            "columns": [
+              {
+                "column_name": "col1",
+                "erasure": "mask"
+              },
+              {
+                "column_name": "col2",
+                "erasure": "mask"
+              }
+            ],
+            "role": "data_analyst",
+            "table_name": "table1"
+          },
+          {
+            "columns": [
+              {
+                "column_name": "col1",
+                "erasure": "mask"
+              },
+              {
+                "column_name": "col2",
+                "erasure": "mask"
+              }
+            ],
+            "role": "data_analyst",
+            "table_name": "table3"
+          }
+        ],
+        "management": [
+          {
+            "role": "management",
+            "table_name": "table4"
+          }
+        ],
+        "sec_lending": [
+          {
+            "role": "sec_lending",
+            "table_name": "table2"
+          }
+        ]
+      },
+      "table_list": [],
+      "users": [
+        {
+          "location": "nyc",
+          "name": "alice",
+          "roles": [
+            "data_analyst"
+          ]
+        },
+        {
+          "location": "nyc",
+          "name": "bob",
+          "roles": [
+            "management"
+          ]
+        },
+        {
+          "location": "apac",
+          "name": "bob",
+          "roles": [
+            "data_analyst",
+            "sec_lending",
+            "foobar"
+          ]
+        },
+        {
+          "location": "nyc",
+          "name": "dan",
+          "roles": [
+            "sec_lending"
+          ]
+        }
+      ]
+    },
+    "test": "push dynamic data for second time"
+  }
+}
