@@ -1,17 +1,17 @@
-package com.marketplace.rules
+package marketplace_policy
 
 import rego.v1
 
 default allow := false
 
-marketplace := data.marketplace
+mplace := data.marketplace
 
 #This will take the user and location from the input json and check the data json for this user in the specified location.
 #This will produce a set of roles that are then used to resolve to a list of tables.
 myroles = {
     R.roles[_]
     |
-    R = marketplace.users[_];
+    R = mplace.users[_];
     R.name == input.user
     R.location == input.location
 }
@@ -24,7 +24,7 @@ table_list = [
     table[_]
     |
     R = myroles[_]
-    table = marketplace.roles[R]
+    table = mplace.roles[R]
 ]
 
 #If the list of tables is greater then zero then the user is authorized to access the tables in the table_list.
