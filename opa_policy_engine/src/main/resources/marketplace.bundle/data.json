@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "name": "alice",
+      "location": "nyc",
+      "roles": [
+        "data_analyst"
+      ]
+    },
+    {
+      "name": "bob",
+      "location": "nyc",
+      "roles": [
+        "management"
+      ]
+    },
+    {
+      "name": "bob",
+      "location": "apac",
+      "roles": [
+        "data_analyst",
+        "sec_lending",
+        "foobar"
+      ]
+    },
+    {
+      "name": "dan",
+      "location": "nyc",
+      "roles": [
+        "sec_lending"
+      ]
+    }
+  ],
+  "roles": {
+    "data_analyst": [
+      {
+        "role" : "data_analyst",
+        "table_name": "table1",
+        "columns": [
+          {
+            "column_name": "col1",
+            "erasure": "mask"
+          },
+          {
+            "column_name": "col2",
+            "erasure": "mask"
+          }
+        ]
+      },
+      {
+        "role" : "data_analyst",
+        "table_name": "table3",
+        "columns": [
+          {
+            "column_name": "col1",
+            "erasure": "mask"
+          },
+          {
+            "column_name": "col2",
+            "erasure": "mask"
+          }
+        ]
+      }
+    ],
+    "sec_lending": [
+      {
+        "role" : "sec_lending",
+        "table_name": "table2"
+      }
+    ],
+    "management": [
+      {
+        "role" : "management",
+        "table_name": "table4"
+      }
+    ]
+  }
+}
