@@ -22,7 +22,7 @@
 		<activiti.version>6.0.0</activiti.version>
 
 	    <org-junit-jupiter-junit-jupiter-engine>5.5.2</org-junit-jupiter-junit-jupiter-engine>
-		<org-springframework-boot-spring-boot-starter-web>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-web>
+		<org-springframework-boot-spring-boot-starter-web>2.5.12</org-springframework-boot-spring-boot-starter-web>
 		<org-springframework-boot-spring-boot-starter-security>2.1.7.RELEASE</org-springframework-boot-spring-boot-starter-security>
 		<com.wallstft.workflow.core>1.0-SNAPSHOT</com.wallstft.workflow.core>
 		<org-springframework-security-spring-security-core>5.1.6.RELEASE</org-springframework-security-spring-security-core>
